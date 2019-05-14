@@ -1,0 +1,91 @@
+:icons: font
+:sectnums:
+:toc: left
+= vimterm
+
+Vim plugin for vim-terminal. +
+
+* Start terminal on vim-terminal leftside.
+* Close terminal on vim-terminal leftside.
+* Send current line to terminal. if iptyhon then with %cpaste -q.
+* Send block (between # %% and # %%) to terminal. if ipython then with %cpaste -q.
+* Send selection line to terminal. if ipython then with %cpaste -q.
+
+== Install
+
+Install by Vundle. +
+Add .vimrc
+
+* Plugin 'kanosuke/vimterm'
+
+== Key map
+
+* <leader>p  Start IPython
+* <leader>r  Start R
+* <leader>t  Start bash
+* <leader>c  Close terminal
+* <leader>l  Sendline
+* <leader>b  SendBlock
+* <leader>s  SendSelection
+
+== Example
+
+=== IPython Example
+. Open IPython
+. Send line.
+. Send block.
+. Send selection.
+
+.Code: py
+----
+# Open IPython. press <leader>p
+# Send line. press <leader>l
+print("Hello line.")
+
+# Send block. press <leader>b
+# %%
+print("Hello block1.")
+print("Hello block2.")
+# %%
+
+# Send selection. press <leader>s
+print("Hello selection1.")
+print("Hello selection2.")
+
+# Close IPython press <leader>c
+
+----
+image:ipython.gif["Example screenshot", width=640,link="ipython.gif"]
+
+
+=== R Example
+. Open R
+. Send line.
+
+.Code: R
+----
+# Open R. press <leader>r
+# Send line. press <leader>l
+print("Hello line.")
+
+# Close IPython press <leader>c
+
+----
+image:r.gif["Example screenshot", width=640,link="r.gif"]
+
+
+=== bash Example
+. Open bash
+. Send line.
+
+.Code: bash
+----
+# Open bash. press <leader>t
+# Send line. press <leader>l
+echo "Hello line."
+
+# Close IPython press <leader>c
+
+----
+image:bash.gif!["Example screenshot", width=640,link="https://raw.github.com/wiki/kanosuke/vimterm/bash.gif"]
+
