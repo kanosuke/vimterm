@@ -55,7 +55,7 @@ print("Hello selection2.")
 # Close IPython press <leader>c
 
 ----
-image:ipython.gif["Example screenshot", width=640,link="ipython.gif"]
+image:https://raw.github.com/wiki/kanosuke/vimterm/ipython.gif["Example screenshot", width=640,link="https://raw.github.com/wiki/kanosuke/vimterm/ipython.gif"]
 
 
 === R Example
@@ -71,7 +71,7 @@ print("Hello line.")
 # Close IPython press <leader>c
 
 ----
-image:r.gif["Example screenshot", width=640,link="r.gif"]
+image:https://raw.github.com/wiki/kanosuke/vimterm/r.gif["Example screenshot", width=640,link="https://raw.github.com/wiki/kanosuke/vimterm/r.gif"]
 
 
 === bash Example
@@ -87,5 +87,5 @@ echo "Hello line."
 # Close IPython press <leader>c
 
 ----
-image:bash.gif!["Example screenshot", width=640,link="https://raw.github.com/wiki/kanosuke/vimterm/bash.gif"]
+image:https://raw.github.com/wiki/kanosuke/vimterm/bash.gif["Example screenshot", width=640,link="https://raw.github.com/wiki/kanosuke/vimterm/bash.gif"]
 
